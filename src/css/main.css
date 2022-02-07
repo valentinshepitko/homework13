@@ -76,6 +76,11 @@ a {
 .block:hover {
   border: 1px solid #3DB370;
 }
+.block__icon {
+  border: 1px solid #E1F4F5;
+  border-radius: 10px;
+  padding: 12px;
+}
 .block__title {
   font-size: 24px;
   padding-top: 30px;
