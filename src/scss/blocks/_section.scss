@@ -22,11 +22,15 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding-bottom: 40px;
+  margin: 0 -20px;
+}
+
+.block_col{
+  width: calc(100% / 3);
+  padding: 0 20px 40px;
 }
 
 .block {
-    width: 360px;
     border: 1px solid #EFEEF3;
     border-radius: 10px;
     padding: 44px;
@@ -46,14 +50,14 @@
     padding-top: 30px;
     }
 
-    &__text {
-    width: 275px;
+  &__text {
+    max-width: 275px;
     }
 
-    &__link {
+  &__link {
       color: #16133D;
 
-      &:hover{
+    &:hover{
         color: #7690A8;
       }
     }

@@ -64,11 +64,15 @@ a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding-bottom: 40px;
+  margin: 0 -20px;
+}
+
+.block_col {
+  width: calc(100% / 3);
+  padding: 0 20px 40px;
 }
 
 .block {
-  width: 360px;
   border: 1px solid #EFEEF3;
   border-radius: 10px;
   padding: 44px;
@@ -86,7 +90,7 @@ a {
   padding-top: 30px;
 }
 .block__text {
-  width: 275px;
+  max-width: 275px;
 }
 .block__link {
   color: #16133D;
